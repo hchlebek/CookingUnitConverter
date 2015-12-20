@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA1AF7C1C2646C9000D6863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1AF7B1C2646C9000D6863 /* AppDelegate.swift */; };
+		3FA1AF7E1C2646C9000D6863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1AF7D1C2646C9000D6863 /* ViewController.swift */; };
+		3FA1AF811C2646C9000D6863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA1AF7F1C2646C9000D6863 /* Main.storyboard */; };
+		3FA1AF831C2646C9000D6863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA1AF821C2646C9000D6863 /* Assets.xcassets */; };
+		3FA1AF861C2646C9000D6863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA1AF841C2646C9000D6863 /* LaunchScreen.storyboard */; };
+		3FA1AF911C2646C9000D6863 /* Cooking_Unit_Converter_FInalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1AF901C2646C9000D6863 /* Cooking_Unit_Converter_FInalTests.swift */; };
+		3FA1AF9C1C2646C9000D6863 /* Cooking_Unit_Converter_FInalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1AF9B1C2646C9000D6863 /* Cooking_Unit_Converter_FInalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA1AF8D1C2646C9000D6863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA1AF701C2646C9000D6863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA1AF771C2646C9000D6863;
+			remoteInfo = "Cooking Unit Converter FInal";
+		};
+		3FA1AF981C2646C9000D6863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA1AF701C2646C9000D6863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA1AF771C2646C9000D6863;
+			remoteInfo = "Cooking Unit Converter FInal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA1AF781C2646C9000D6863 /* Cooking Unit Converter FInal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cooking Unit Converter FInal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA1AF7B1C2646C9000D6863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA1AF7D1C2646C9000D6863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA1AF801C2646C9000D6863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA1AF821C2646C9000D6863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA1AF851C2646C9000D6863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA1AF871C2646C9000D6863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA1AF8C1C2646C9000D6863 /* Cooking Unit Converter FInalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cooking Unit Converter FInalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA1AF901C2646C9000D6863 /* Cooking_Unit_Converter_FInalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cooking_Unit_Converter_FInalTests.swift; sourceTree = "<group>"; };
+		3FA1AF921C2646C9000D6863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA1AF971C2646C9000D6863 /* Cooking Unit Converter FInalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cooking Unit Converter FInalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA1AF9B1C2646C9000D6863 /* Cooking_Unit_Converter_FInalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cooking_Unit_Converter_FInalUITests.swift; sourceTree = "<group>"; };
+		3FA1AF9D1C2646C9000D6863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA1AF751C2646C9000D6863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA1AF891C2646C9000D6863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA1AF941C2646C9000D6863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA1AF6F1C2646C9000D6863 = {
+			isa = PBXGroup;
+			children = (
+				3FA1AF7A1C2646C9000D6863 /* Cooking Unit Converter FInal */,
+				3FA1AF8F1C2646C9000D6863 /* Cooking Unit Converter FInalTests */,
+				3FA1AF9A1C2646C9000D6863 /* Cooking Unit Converter FInalUITests */,
+				3FA1AF791C2646C9000D6863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA1AF791C2646C9000D6863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA1AF781C2646C9000D6863 /* Cooking Unit Converter FInal.app */,
+				3FA1AF8C1C2646C9000D6863 /* Cooking Unit Converter FInalTests.xctest */,
+				3FA1AF971C2646C9000D6863 /* Cooking Unit Converter FInalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA1AF7A1C2646C9000D6863 /* Cooking Unit Converter FInal */ = {
+			isa = PBXGroup;
+			children = (
+				3FA1AF7B1C2646C9000D6863 /* AppDelegate.swift */,
+				3FA1AF7D1C2646C9000D6863 /* ViewController.swift */,
+				3FA1AF7F1C2646C9000D6863 /* Main.storyboard */,
+				3FA1AF821C2646C9000D6863 /* Assets.xcassets */,
+				3FA1AF841C2646C9000D6863 /* LaunchScreen.storyboard */,
+				3FA1AF871C2646C9000D6863 /* Info.plist */,
+			);
+			path = "Cooking Unit Converter FInal";
+			sourceTree = "<group>";
+		};
+		3FA1AF8F1C2646C9000D6863 /* Cooking Unit Converter FInalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA1AF901C2646C9000D6863 /* Cooking_Unit_Converter_FInalTests.swift */,
+				3FA1AF921C2646C9000D6863 /* Info.plist */,
+			);
+			path = "Cooking Unit Converter FInalTests";
+			sourceTree = "<group>";
+		};
+		3FA1AF9A1C2646C9000D6863 /* Cooking Unit Converter FInalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA1AF9B1C2646C9000D6863 /* Cooking_Unit_Converter_FInalUITests.swift */,
+				3FA1AF9D1C2646C9000D6863 /* Info.plist */,
+			);
+			path = "Cooking Unit Converter FInalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA1AF771C2646C9000D6863 /* Cooking Unit Converter FInal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA1AFA01C2646C9000D6863 /* Build configuration list for PBXNativeTarget "Cooking Unit Converter FInal" */;
+			buildPhases = (
+				3FA1AF741C2646C9000D6863 /* Sources */,
+				3FA1AF751C2646C9000D6863 /* Frameworks */,
+				3FA1AF761C2646C9000D6863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cooking Unit Converter FInal";
+			productName = "Cooking Unit Converter FInal";
+			productReference = 3FA1AF781C2646C9000D6863 /* Cooking Unit Converter FInal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA1AF8B1C2646C9000D6863 /* Cooking Unit Converter FInalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA1AFA31C2646C9000D6863 /* Build configuration list for PBXNativeTarget "Cooking Unit Converter FInalTests" */;
+			buildPhases = (
+				3FA1AF881C2646C9000D6863 /* Sources */,
+				3FA1AF891C2646C9000D6863 /* Frameworks */,
+				3FA1AF8A1C2646C9000D6863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA1AF8E1C2646C9000D6863 /* PBXTargetDependency */,
+			);
+			name = "Cooking Unit Converter FInalTests";
+			productName = "Cooking Unit Converter FInalTests";
+			productReference = 3FA1AF8C1C2646C9000D6863 /* Cooking Unit Converter FInalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA1AF961C2646C9000D6863 /* Cooking Unit Converter FInalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA1AFA61C2646C9000D6863 /* Build configuration list for PBXNativeTarget "Cooking Unit Converter FInalUITests" */;
+			buildPhases = (
+				3FA1AF931C2646C9000D6863 /* Sources */,
+				3FA1AF941C2646C9000D6863 /* Frameworks */,
+				3FA1AF951C2646C9000D6863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA1AF991C2646C9000D6863 /* PBXTargetDependency */,
+			);
+			name = "Cooking Unit Converter FInalUITests";
+			productName = "Cooking Unit Converter FInalUITests";
+			productReference = 3FA1AF971C2646C9000D6863 /* Cooking Unit Converter FInalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA1AF701C2646C9000D6863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HChlebek;
+				TargetAttributes = {
+					3FA1AF771C2646C9000D6863 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3FA1AF8B1C2646C9000D6863 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3FA1AF771C2646C9000D6863;
+					};
+					3FA1AF961C2646C9000D6863 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3FA1AF771C2646C9000D6863;
+					};
+				};
+			};
+			buildConfigurationList = 3FA1AF731C2646C9000D6863 /* Build configuration list for PBXProject "Cooking Unit Converter FInal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA1AF6F1C2646C9000D6863;
+			productRefGroup = 3FA1AF791C2646C9000D6863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA1AF771C2646C9000D6863 /* Cooking Unit Converter FInal */,
+				3FA1AF8B1C2646C9000D6863 /* Cooking Unit Converter FInalTests */,
+				3FA1AF961C2646C9000D6863 /* Cooking Unit Converter FInalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA1AF761C2646C9000D6863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA1AF861C2646C9000D6863 /* LaunchScreen.storyboard in Resources */,
+				3FA1AF831C2646C9000D6863 /* Assets.xcassets in Resources */,
+				3FA1AF811C2646C9000D6863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA1AF8A1C2646C9000D6863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA1AF951C2646C9000D6863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA1AF741C2646C9000D6863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA1AF7E1C2646C9000D6863 /* ViewController.swift in Sources */,
+				3FA1AF7C1C2646C9000D6863 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA1AF881C2646C9000D6863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA1AF911C2646C9000D6863 /* Cooking_Unit_Converter_FInalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA1AF931C2646C9000D6863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA1AF9C1C2646C9000D6863 /* Cooking_Unit_Converter_FInalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA1AF8E1C2646C9000D6863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA1AF771C2646C9000D6863 /* Cooking Unit Converter FInal */;
+			targetProxy = 3FA1AF8D1C2646C9000D6863 /* PBXContainerItemProxy */;
+		};
+		3FA1AF991C2646C9000D6863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA1AF771C2646C9000D6863 /* Cooking Unit Converter FInal */;
+			targetProxy = 3FA1AF981C2646C9000D6863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA1AF7F1C2646C9000D6863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA1AF801C2646C9000D6863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA1AF841C2646C9000D6863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA1AF851C2646C9000D6863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA1AF9E1C2646C9000D6863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA1AF9F1C2646C9000D6863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA1AFA11C2646C9000D6863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cooking Unit Converter FInal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HChlebek.Cooking-Unit-Converter-FInal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FA1AFA21C2646C9000D6863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cooking Unit Converter FInal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HChlebek.Cooking-Unit-Converter-FInal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FA1AFA41C2646C9000D6863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cooking Unit Converter FInalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HChlebek.Cooking-Unit-Converter-FInalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cooking Unit Converter FInal.app/Cooking Unit Converter FInal";
+			};
+			name = Debug;
+		};
+		3FA1AFA51C2646C9000D6863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cooking Unit Converter FInalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HChlebek.Cooking-Unit-Converter-FInalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cooking Unit Converter FInal.app/Cooking Unit Converter FInal";
+			};
+			name = Release;
+		};
+		3FA1AFA71C2646C9000D6863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cooking Unit Converter FInalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HChlebek.Cooking-Unit-Converter-FInalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cooking Unit Converter FInal";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FA1AFA81C2646C9000D6863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cooking Unit Converter FInalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HChlebek.Cooking-Unit-Converter-FInalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cooking Unit Converter FInal";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA1AF731C2646C9000D6863 /* Build configuration list for PBXProject "Cooking Unit Converter FInal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA1AF9E1C2646C9000D6863 /* Debug */,
+				3FA1AF9F1C2646C9000D6863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA1AFA01C2646C9000D6863 /* Build configuration list for PBXNativeTarget "Cooking Unit Converter FInal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA1AFA11C2646C9000D6863 /* Debug */,
+				3FA1AFA21C2646C9000D6863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA1AFA31C2646C9000D6863 /* Build configuration list for PBXNativeTarget "Cooking Unit Converter FInalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA1AFA41C2646C9000D6863 /* Debug */,
+				3FA1AFA51C2646C9000D6863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA1AFA61C2646C9000D6863 /* Build configuration list for PBXNativeTarget "Cooking Unit Converter FInalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA1AFA71C2646C9000D6863 /* Debug */,
+				3FA1AFA81C2646C9000D6863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA1AF701C2646C9000D6863 /* Project object */;
+}
