@@ -14,6 +14,7 @@
 		3FA1AF861C2646C9000D6863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA1AF841C2646C9000D6863 /* LaunchScreen.storyboard */; };
 		3FA1AF911C2646C9000D6863 /* Cooking_Unit_Converter_FInalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1AF901C2646C9000D6863 /* Cooking_Unit_Converter_FInalTests.swift */; };
 		3FA1AF9C1C2646C9000D6863 /* Cooking_Unit_Converter_FInalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1AF9B1C2646C9000D6863 /* Cooking_Unit_Converter_FInalUITests.swift */; };
+		3FA1AFAA1C26573C000D6863 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1AFA91C26573C000D6863 /* SecondViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FA1AF971C2646C9000D6863 /* Cooking Unit Converter FInalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cooking Unit Converter FInalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA1AF9B1C2646C9000D6863 /* Cooking_Unit_Converter_FInalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cooking_Unit_Converter_FInalUITests.swift; sourceTree = "<group>"; };
 		3FA1AF9D1C2646C9000D6863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA1AFA91C26573C000D6863 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3FA1AF7B1C2646C9000D6863 /* AppDelegate.swift */,
 				3FA1AF7D1C2646C9000D6863 /* ViewController.swift */,
 				3FA1AF7F1C2646C9000D6863 /* Main.storyboard */,
+				3FA1AFA91C26573C000D6863 /* SecondViewController.swift */,
 				3FA1AF821C2646C9000D6863 /* Assets.xcassets */,
 				3FA1AF841C2646C9000D6863 /* LaunchScreen.storyboard */,
 				3FA1AF871C2646C9000D6863 /* Info.plist */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA1AFAA1C26573C000D6863 /* SecondViewController.swift in Sources */,
 				3FA1AF7E1C2646C9000D6863 /* ViewController.swift in Sources */,
 				3FA1AF7C1C2646C9000D6863 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +487,7 @@
 				3FA1AFA21C2646C9000D6863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA1AFA31C2646C9000D6863 /* Build configuration list for PBXNativeTarget "Cooking Unit Converter FInalTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				3FA1AFA51C2646C9000D6863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA1AFA61C2646C9000D6863 /* Build configuration list for PBXNativeTarget "Cooking Unit Converter FInalUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				3FA1AFA81C2646C9000D6863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
